@@ -1,0 +1,26 @@
+<head>
+  <!-- Altri elementi del head... -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+  <h1>HACKER NEWS</h1>
+<!-- start-page.component.html -->
+
+<div *ngFor="let news of newsList">
+  <h2>{{ news.title }}</h2>
+  <a [href]="news.url" target="_blank">Read more</a>
+  <p>{{ news.time * 1000 | date }}</p>
+</div>
+
+<button (click)="onLoadMore()">Load more</button>
+
+<div class="socials">
+<h2>I miei social:</h2>
+<ul>
+    <li><a href="https://www.facebook.com/luigi.buono.9250" target="_blank"><i class="fab fa-facebook"></i> Seguici su Facebook</a></li>
+    <li><a href="https://twitter.com/LuigiBu48833456" target="_blank"><i class="fab fa-twitter"></i> Seguici su Twitter</a></li>
+    <li><a href="https://www.instagram.com/luigi.buono_/" target="_blank"><i class="fab fa-instagram"></i> Seguici su Instagram</a></li>
+    <li><a href="https://www.linkedin.com/in/luigi-buono-334b73258/" target="_blank"><i class="fab fa-linkedin"></i> Seguici su LinkedIn</a></li>
+</ul>
+</div>
+</body>

@@ -1,0 +1,30 @@
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url(../../assets/portfolioBackground.jpeg);
+  text-align: center;
+}
+h1{
+  font-family:'Times New Roman', Times, serif;
+  color:black;
+  background-color: aquamarine;
+  border:3px dotted black;
+}
+.socials{
+  display: flex;
+  justify-content: flex-start;
+  font-size:20px;
+  color:black;
+  margin-top:-300px
+}
+
+@media screen and (max-width:992px) {
+  div.socials{
+    font-size:20px;
+    margin-top: 0;
+  }
+}
