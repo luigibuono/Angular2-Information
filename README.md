@@ -2,6 +2,18 @@
 Firebase : https://angular2-information.web.app/ <br>
 Netlify: https://jovial-malasada-91ccbd.netlify.app/
 
+# PROJECT RESUME: 
+Step 1: Crea un nuovo progetto Angular con ng New (nome progetto)
+Step 2: Crea il servizio per le chiamate API , ng g services/(nomeservizio)
+Nel file hacker-news.service.ts, implementa le funzioni per ottenere gli ID delle ultime notizie e i dettagli delle notizie
+Step 3:Step 3: Implementa il componente per visualizzare le notizie
+Step 4: ng generate config karma per implementare il test-runner
+Step 5: Implementare il test al servizio e al componente
+Step 6 : Fare il deploy su firebase :ng build(compilazione e creazione cartella dist) npm i firebase-tools , firebase login , firebase init imposta cartella di destinazione dist(nome progetto ) firebase deploy e si genera link.
+
+
+
+
 
 
 
