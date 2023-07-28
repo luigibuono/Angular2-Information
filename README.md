@@ -14,6 +14,7 @@ Step 6 : Fare il deploy su firebase :ng build(compilazione e creazione cartella 
 
 
 
+> ![Screenshot 2023-07-28 114736](https://user-images.githubusercontent.com/128727133/256791045-f053cd3d-73ad-43de-a479-fe4f4e4c051d.png)
 
 
 
