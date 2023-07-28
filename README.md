@@ -1,3 +1,15 @@
+# DEPLOYS :
+Firebase : https://angular2-information.web.app/
+Netlify: https://jovial-malasada-91ccbd.netlify.app/
+
+
+
+
+
+
+
+
+
 # Angular2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
